@@ -1,0 +1,32 @@
+{
+    "id": "vanillabackport_x_oreganized",
+    "name": "Vanilla Backport x Oreganized",
+    "description": "Integrates features of Vanilla Backport and Oreganized.",
+    "version": "1.0.0",
+    "authors": [
+        "Prime"
+    ],
+    "dependencies": [
+        {
+            "type": "REQUIRED",
+            "id": "vanillabackport",
+            "source": "MOD",
+            "versionRange": "[1.2,)",
+            "reason": "Required for core functionality"
+        },
+        {
+            "type": "REQUIRED",
+            "id": "oreganized",
+            "source": "MOD",
+            "versionRange": "[5.2.0,)",
+            "reason": "Required for core functionality"
+        },
+        {
+            "type": "OPTIONAL",
+            "id": "modefite",
+            "source": "MOD",
+            "versionRange": "[1.0.1+1.21.1,)",
+            "reason": "Required for proper display of spears"
+        }
+    ]
+}
